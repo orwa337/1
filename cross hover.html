@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  cursor:pointer;
+}
+
+p + label {
+  color: #ccc;
+  font-style: italic;
+   margin-left : -150px;
+
+} 
+p:hover + label {
+  color: #f00;
+  font-style: normal;
+  margin-left : 0px;
+  transition: 0.5s;
+} 
+
+</style>
+</head>
+<body>
+
+<p id="ossm" name="ossm"> here </p>
+<label for="ossm">CSS is Awesome</label>
+
+</body>
+</html>
