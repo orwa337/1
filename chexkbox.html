@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type=checkbox] + .button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+
+input[type=checkbox]:checked + .button {
+  background-color: blue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  transition: 0.5s;
+}
+
+input[type=checkbox]:checked + .button:hover {
+  background-color: black;
+}
+</style>
+</head>
+<body>
+
+<h2>Animated Buttons - "Pressed Effect"</h2>
+
+<input type="checkbox" id="ossm" name="ossm">
+
+<button class="button" for="ossm">Click Me</button>
+
+</body>
+</html>
